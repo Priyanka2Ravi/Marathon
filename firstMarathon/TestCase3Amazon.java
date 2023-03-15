@@ -33,6 +33,8 @@ public class TestCase3Amazon {
 		System.out.println(Drive.findElement(By.xpath("//span[@class='a-size-base-plus a-color-base a-text-normal']")).getText());
 		String s = Drive.findElement(By.xpath("//span[@class='a-price-whole']")).getText();
 		System.out.println(s);
+		System.out.println(Drive.getTitle());
+		Drive.close();
 	}
 
 }
